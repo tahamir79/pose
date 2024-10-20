@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.gesture-scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.content {
+  padding: 20px;
+  min-height: 200vh; /* Ensure there's enough content to scroll */
+}
